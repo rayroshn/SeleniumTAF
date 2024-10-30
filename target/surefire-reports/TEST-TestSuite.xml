@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.39" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="47.786" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -7,7 +7,6 @@
     <property name="java.class.path" value="F:\seleniumtestframework\target\test-classes;F:\seleniumtestframework\target\classes;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Lenovo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.3\jackson-dataformat-yaml-2.15.3.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="webdriver.firefox.args" value="--headless"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire8889945869368523429\surefirebooter-20241030013131425_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire8889945869368523429 2024-10-30T01-31-31_146-jvmRun1 surefire-20241030013131425_1tmp surefire_0-20241030013131425_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire3906979396331519735\surefirebooter-20241030034044984_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire3906979396331519735 2024-10-30T03-40-44_668-jvmRun1 surefire-20241030034044984_1tmp surefire_0-20241030034044984_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\seleniumtestframework\target\test-classes;F:\seleniumtestframework\target\classes;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Lenovo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Lenovo\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.3\jackson-dataformat-yaml-2.15.3.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;"/>
     <property name="allure.results.directory" value="F:\seleniumtestframework\target/allure-results"/>
@@ -32,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire8889945869368523429\surefirebooter-20241030013131425_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire3906979396331519735\surefirebooter-20241030034044984_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -42,14 +41,12 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="webdriver.chrome.args" value="--no-sandbox,--disable-dev-shm-usage,--headless,--disable-gpu,--window-size=1920,1080"/>
     <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.9"/>
     <property name="user.dir" value="F:\seleniumtestframework"/>
     <property name="os.arch" value="amd64"/>
-    <property name="webdriver.chrome.whitelistedIps" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -60,134 +57,134 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTest" time="2.048">
-    <system-out><![CDATA[01:31:33.731 [main] DEBUG org.testng.TestNG - suiteXmlPath: "F:\seleniumtestframework\testng.xml"
-01:31:46.329 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:31:48.363 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:31:48.365 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:31:48.615 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:31:50.061 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:31:50.397 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:31:50.644 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:31:53.230 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
-01:31:53.231 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
-01:31:53.234 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
-01:31:53.287 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:31:53.300 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
-01:31:53.300 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
-01:31:53.300 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.LoginTestNew - loader.getUsername() = rayroshn@gmail.com
-01:31:54.510 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTestNew" time="5.878">
+    <system-out><![CDATA[03:40:47.320 [main] DEBUG org.testng.TestNG - suiteXmlPath: "F:\seleniumtestframework\testng.xml"
+03:41:01.243 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.801 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.821 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.861 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:03.244 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.645 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.739 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.909 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:09.153 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:09.154 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:09.156 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:09.157 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:09.160 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
+03:41:09.160 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.LoginTestNew - loader.getUsername() = rayroshn@gmail.com
+03:41:11.013 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:11.584 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:12.316 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
 formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:31:54.881 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
-01:31:55.000 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
-01:31:55.272 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:12.919 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
 ]]></system-out>
-    <system-err><![CDATA[Oct 30, 2024 1:31:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 30, 2024 3:41:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:31:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:31:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTest" time="1.081">
-    <system-out><![CDATA[01:32:06.695 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:32:06.793 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:32:10.308 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:32:10.401 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:32:10.831 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:32:10.857 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
-01:32:10.857 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
-01:32:10.858 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
-01:32:12.075 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:32:12.666 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTestNew" time="0.901">
+    <system-out><![CDATA[03:41:15.934 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.014 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.186 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.264 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:19.704 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:20.108 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:20.288 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:21.475 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:22.052 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
 formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:32:13.115 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
-]]></system-out>
-    <system-err><![CDATA[Oct 30, 2024 1:32:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:32:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 30, 2024 1:32:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:32:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTest" time="0.543">
-    <system-out><![CDATA[01:31:59.217 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:31:59.387 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:31:59.652 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:31:59.926 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:32:02.204 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:32:02.534 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-01:32:04.220 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:32:04.693 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:32:04.904 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:22.356 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
 formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:32:05.209 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:22.384 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
 ]]></system-out>
-    <system-err><![CDATA[Oct 30, 2024 1:32:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 30, 2024 3:41:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:32:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 30, 2024 1:32:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2024 3:41:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:32:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTest" time="0.76">
-    <system-out><![CDATA[01:32:17.090 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
-01:32:17.607 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTest" time="7.169">
+    <system-out><![CDATA[03:41:13.979 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
 formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:32:17.707 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:32:17.840 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:14.422 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
 ]]></system-out>
   </testcase>
-  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTestNew" time="3.832">
-    <system-out><![CDATA[01:31:56.176 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+  <testcase name="addProductTCart" classname="com.test.automation.tests.HomePageTest" time="0.779">
+    <system-out><![CDATA[03:41:23.399 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:23.477 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:26.919 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:27.071 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:27.561 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:28.937 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:28.957 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:28.958 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:28.958 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
+03:41:29.445 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
 formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:31:57.090 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:29.691 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
 ]]></system-out>
-  </testcase>
-  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTestNew" time="1.184">
-    <system-out><![CDATA[01:32:05.677 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
-formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
-01:32:05.874 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
-]]></system-out>
-  </testcase>
-  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTestNew" time="4.85">
-    <system-out><![CDATA[01:31:58.027 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
-01:31:58.140 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
-]]></system-out>
-  </testcase>
-  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTest" time="5.471">
-    <system-out><![CDATA[01:31:58.630 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
-01:31:58.768 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
-]]></system-out>
-  </testcase>
-  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTest" time="3.978">
-    <system-out><![CDATA[01:32:13.189 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
-01:32:13.815 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
-01:32:15.860 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
-01:32:16.054 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
-01:32:16.054 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
-]]></system-out>
-    <system-err><![CDATA[Oct 30, 2024 1:32:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 30, 2024 3:41:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 130
-Oct 30, 2024 1:32:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 30, 2024 3:41:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Oct 30, 2024 3:41:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Oct 30, 2024 3:41:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
+  </testcase>
+  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTest" time="1.383">
+    <system-out><![CDATA[03:41:22.782 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+]]></system-out>
+  </testcase>
+  <testcase name="addProductTCart1" classname="com.test.automation.tests.HomePageTest" time="1.153">
+    <system-out><![CDATA[03:41:32.762 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:33.637 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:33.764 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+formattedXPath = //h2[text()='Denim Blue Jeans']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]
+03:41:33.958 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+]]></system-out>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTest" time="7.677">
+    <system-out><![CDATA[03:41:14.770 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:14.915 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+]]></system-out>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTest" time="3.659">
+    <system-out><![CDATA[03:41:30.045 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:30.452 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:32.305 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:32.518 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:32.596 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+]]></system-out>
+    <system-err><![CDATA[Oct 30, 2024 3:41:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 130
+Oct 30, 2024 3:41:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 130.0.6723.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="com.test.automation.tests.LoginTestNew" time="8.175">
+    <system-out><![CDATA[03:41:15.278 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:15.438 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+]]></system-out>
   </testcase>
 </testsuite>

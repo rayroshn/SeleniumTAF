@@ -47,4 +47,5 @@ jobs:
           DISPLAY: :99
           SELENIUM_HEADLESS: true
         run: |
-          mvn clean test -Dwebdriver.chrome.args="--no-sandbox,--disable-dev-shm-usage,--headless,--disable-gpu,--window-size=1920,1080" -Dwebdriver.firefox.args="--headless"
+          mvn clean test allure:report
+        shell: bash

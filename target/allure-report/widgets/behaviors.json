@@ -1,8 +1,8 @@
 {
   "total" : 2,
   "items" : [ {
-    "uid" : "3854915ee6a85d1a2a2021761c947c37",
-    "name" : "Authentication",
+    "uid" : "8b1328bde20731167bab756d784c6985",
+    "name" : "Featured Products",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "8b1328bde20731167bab756d784c6985",
-    "name" : "Featured Products",
+    "uid" : "3854915ee6a85d1a2a2021761c947c37",
+    "name" : "Authentication",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

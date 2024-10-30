@@ -1582,3 +1582,60 @@ Session ID: 6fa7af21c7ad35dc0cf37d60f3c93e44
 01:32:17.707 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
 01:32:17.840 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
 01:32:18.359 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:01.243 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.801 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.821 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:01.861 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:03.244 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.645 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.739 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:06.909 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:09.153 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:09.154 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:09.156 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:09.157 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:09.160 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
+03:41:09.160 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.tests.LoginTestNew - loader.getUsername() = rayroshn@gmail.com
+03:41:11.013 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:11.584 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:12.316 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:12.919 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:13.979 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:14.422 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:14.770 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:14.915 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+03:41:15.278 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:15.438 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+03:41:15.934 [TestNG-test=Chrome Tests-4] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.014 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.186 [TestNG-test=Chrome Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:16.264 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:19.704 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:20.108 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:20.288 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:21.475 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:22.052 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:22.356 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:22.384 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:22.782 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:23.399 [TestNG-test=Chrome Tests-3] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:23.477 [TestNG-test=Chrome Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:26.919 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:27.071 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:27.561 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:28.937 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:28.957 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Username... : rayroshn@gmail.com
+03:41:28.958 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.utils.CredentialsLoader - Retrieved Password... : JFRoaW5haXIzMjE=
+03:41:28.958 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.tests.LoginTest - loader.getUsername() = rayroshn@gmail.com
+03:41:29.445 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:29.691 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:30.045 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:30.452 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']
+03:41:32.305 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Created new chrome driver instance
+03:41:32.518 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //button[normalize-space()='Log in']
+03:41:32.596 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.actions.WebActions - Retrieved text: Logout
+03:41:32.762 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.tests.BaseTest - Started test with URL...: https://askomdch.com/
+03:41:33.637 [TestNG-test=Firefox Tests-1] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
+03:41:33.764 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked element: By.xpath: //div[@class="main-navigation ast-inline-flex"]//ul[@id="ast-hf-menu-1"]//li//a[text() = 'Home']
+03:41:33.958 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.actions.WebActions - Clicked 'Add to Cart' button for product: Denim Blue Jeans
+03:41:34.320 [TestNG-test=Firefox Tests-2] INFO  com.test.automation.driver.DriverFactory - Quit driver instance
