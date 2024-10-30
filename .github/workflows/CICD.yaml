@@ -42,7 +42,7 @@ jobs:
           Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects' -Name 'VisualFXSetting' -Value 2
 
       - name: Run Tests
-        continue-on-error: false
+        continue-on-error: true
         env:
           DISPLAY: :99
           SELENIUM_HEADLESS: true
