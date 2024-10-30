@@ -47,18 +47,4 @@ jobs:
           DISPLAY: :99
           SELENIUM_HEADLESS: true
         run: |
-          mvn clean test -Dwebdriver.chrome.whitelistedIps="" -Dwebdriver.chrome.args="--no-sandbox,--disable-dev-shm-usage,--headless,--disable-gpu,--window-size=1920,1080" -Dwebdriver.firefox.args="--headless"
-
-      - name: Generate Allure Report
-        if: always()
-        run: mvn allure:report
-
-      - name: Upload Test Results
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-results
-          path: |
-            target/surefire-reports
-            target/allure-results
-            target/allure-report
+          mvn clean test -Dwebdriver.chrome.args="--no-sandbox,--disable-dev-shm-usage,--headless,--disable-gpu,--window-size=1920,1080" -Dwebdriver.firefox.args="--headless"
