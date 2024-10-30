@@ -1,0 +1,266 @@
+{
+  "uid" : "4cb4ea6dc79bd6c1",
+  "name" : "testSuccessfulLogin",
+  "fullName" : "com.test.automation.tests.LoginTest.testSuccessfulLogin",
+  "historyId" : "34ff152027cdbbf01ae9d1f50f15eadf",
+  "time" : {
+    "start" : 1730277109589,
+    "stop" : 1730277118769,
+    "duration" : 9180
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1730277098013,
+      "stop" : 1730277108622,
+      "duration" : 10609
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login with username: rayroshn@gmail.com and password: $Thinair321",
+      "time" : {
+        "start" : 1730277113253,
+        "stop" : 1730277118634,
+        "duration" : 5381
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click element: By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']",
+        "time" : {
+          "start" : 1730277113253,
+          "stop" : 1730277115000,
+          "duration" : 1747
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //li[@id='menu-item-1237']//a[@class='menu-link'][normalize-space()='Account']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Enter text: rayroshn@gmail.com into element: By.xpath: //input[@id='username']",
+        "time" : {
+          "start" : 1730277115001,
+          "stop" : 1730277115842,
+          "duration" : 841
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //input[@id='username']"
+        }, {
+          "name" : "text",
+          "value" : "rayroshn@gmail.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Enter text: $Thinair321 into element: By.xpath: //input[@id='password']",
+        "time" : {
+          "start" : 1730277115843,
+          "stop" : 1730277116717,
+          "duration" : 874
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //input[@id='password']"
+        }, {
+          "name" : "text",
+          "value" : "$Thinair321"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click element: By.xpath: //button[normalize-space()='Log in']",
+        "time" : {
+          "start" : 1730277116717,
+          "stop" : 1730277118630,
+          "duration" : 1913
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //button[normalize-space()='Log in']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "rayroshn@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "$Thinair321"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Logout Button Text from Account page",
+      "time" : {
+        "start" : 1730277118636,
+        "stop" : 1730277118769,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get text from element with default timeout: [[ChromeDriver: chrome on windows (369ab51b3e5f74d2e413bb26a1916354)] -> xpath: //a[normalize-space()='Logout']]",
+        "time" : {
+          "start" : 1730277118692,
+          "stop" : 1730277118768,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get text from element: [[ChromeDriver: chrome on windows (369ab51b3e5f74d2e413bb26a1916354)] -> xpath: //a[normalize-space()='Logout']]",
+          "time" : {
+            "start" : 1730277118692,
+            "stop" : 1730277118768,
+            "duration" : 76
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "element",
+            "value" : "[[ChromeDriver: chrome on windows (369ab51b3e5f74d2e413bb26a1916354)] -> xpath: //a[normalize-space()='Logout']]"
+          }, {
+            "name" : "timeoutSeconds",
+            "value" : "10"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on windows (369ab51b3e5f74d2e413bb26a1916354)] -> xpath: //a[normalize-space()='Logout']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1730277118781,
+      "stop" : 1730277119653,
+      "duration" : 872
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.automation.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.automation.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.automation.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAOF7I"
+  }, {
+    "name" : "thread",
+    "value" : "15868@DESKTOP-DTAOF7I.TestNG-test=Chrome Tests-1(22)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "User Login"
+  }, {
+    "name" : "feature",
+    "value" : "Authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cb4ea6dc79bd6c1.json",
+  "parameterValues" : [ "chrome" ]
+}

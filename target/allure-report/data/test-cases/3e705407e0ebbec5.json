@@ -1,0 +1,170 @@
+{
+  "uid" : "3e705407e0ebbec5",
+  "name" : "addProductTCart",
+  "fullName" : "com.test.automation.tests.HomePageTestNew.addProductTCart",
+  "historyId" : "565e53273b791b88e03c76ff256eef62",
+  "time" : {
+    "start" : 1730277110413,
+    "stop" : 1730277117096,
+    "duration" : 6683
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1730277098010,
+      "stop" : 1730277110398,
+      "duration" : 12388
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Adding Product with ProductName: Denim Blue Jeans ",
+      "time" : {
+        "start" : 1730277111967,
+        "stop" : 1730277117095,
+        "duration" : 5128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click element: By.xpath: //div[@class=\"main-navigation ast-inline-flex\"]//ul[@id=\"ast-hf-menu-1\"]//li//a[text() = 'Home']",
+        "time" : {
+          "start" : 1730277111971,
+          "stop" : 1730277116176,
+          "duration" : 4205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //div[@class=\"main-navigation ast-inline-flex\"]//ul[@id=\"ast-hf-menu-1\"]//li//a[text() = 'Home']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click 'Add to Cart' button for product: Denim Blue Jeans and locator: By.xpath: //h2[text()='%s']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]",
+        "time" : {
+          "start" : 1730277116177,
+          "stop" : 1730277117092,
+          "duration" : 915
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "productName",
+          "value" : "Denim Blue Jeans"
+        }, {
+          "name" : "locator",
+          "value" : "By.xpath: //h2[text()='%s']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ProductName",
+        "value" : "Denim Blue Jeans"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1730277117146,
+      "stop" : 1730277119218,
+      "duration" : 2072
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.automation.tests.HomePageTestNew"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.automation.tests.HomePageTestNew"
+  }, {
+    "name" : "testMethod",
+    "value" : "addProductTCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.automation.tests.HomePageTestNew"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAOF7I"
+  }, {
+    "name" : "thread",
+    "value" : "15868@DESKTOP-DTAOF7I.TestNG-test=Chrome Tests-3(24)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Add To Cart"
+  }, {
+    "name" : "feature",
+    "value" : "Featured Products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e705407e0ebbec5.json",
+  "parameterValues" : [ "chrome" ]
+}

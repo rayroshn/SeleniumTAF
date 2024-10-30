@@ -1,0 +1,5 @@
+String productName1 = "Denim Jeans";
+String productName2 = "Blue Jeans";
+
+String addToCartButtonXPath1 = String.format("//h2[text()='%s']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]", productName1);
+String addToCartButtonXPath2 = String.format("//h2[text()='%s']/ancestor::div[contains(@class, 'astra-shop-summary-wrap')]//a[contains(@class, 'add_to_cart_button')]", productName2);

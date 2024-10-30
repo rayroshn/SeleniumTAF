@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-30T01:31:37 GMT-07:00" name="Test Automation Suite" finished-at="2024-10-30T01:32:18 GMT-07:00" duration-ms="40516">
+    <groups>
+    </groups>
+    <test started-at="2024-10-30T01:31:37 GMT-07:00" name="Chrome Tests" finished-at="2024-10-30T01:32:06 GMT-07:00" duration-ms="28955">
+      <class name="com.test.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.LoginTest@f2b90fc]" started-at="2024-10-30T01:31:37 GMT-07:00" name="setUp" finished-at="2024-10-30T01:31:48 GMT-07:00" duration-ms="10647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.test.automation.tests.LoginTest@f2b90fc]" started-at="2024-10-30T01:31:49 GMT-07:00" name="testSuccessfulLogin" finished-at="2024-10-30T01:31:58 GMT-07:00" duration-ms="9510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.LoginTest@f2b90fc]" started-at="2024-10-30T01:31:58 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:31:59 GMT-07:00" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.LoginTest -->
+      <class name="com.test.automation.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:31:37 GMT-07:00" name="setUp" finished-at="2024-10-30T01:31:50 GMT-07:00" duration-ms="12672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:31:50 GMT-07:00" name="addProductTCart" finished-at="2024-10-30T01:31:55 GMT-07:00" duration-ms="4605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:31:55 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:31:59 GMT-07:00" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:31:59 GMT-07:00" name="setUp" finished-at="2024-10-30T01:32:04 GMT-07:00" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart1()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:32:04 GMT-07:00" name="addProductTCart1" finished-at="2024-10-30T01:32:05 GMT-07:00" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTest@364fd4ae]" started-at="2024-10-30T01:32:05 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:32:06 GMT-07:00" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.HomePageTest -->
+      <class name="com.test.automation.tests.LoginTestNew">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.LoginTestNew@12417468]" started-at="2024-10-30T01:31:37 GMT-07:00" name="setUp" finished-at="2024-10-30T01:31:53 GMT-07:00" duration-ms="15316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.test.automation.tests.LoginTestNew@12417468]" started-at="2024-10-30T01:31:53 GMT-07:00" name="testSuccessfulLogin" finished-at="2024-10-30T01:31:58 GMT-07:00" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.LoginTestNew@12417468]" started-at="2024-10-30T01:31:58 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:31:59 GMT-07:00" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.LoginTestNew -->
+      <class name="com.test.automation.tests.HomePageTestNew">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:31:37 GMT-07:00" name="setUp" finished-at="2024-10-30T01:31:50 GMT-07:00" duration-ms="12424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:31:50 GMT-07:00" name="addProductTCart" finished-at="2024-10-30T01:31:57 GMT-07:00" duration-ms="6687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:31:57 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:31:59 GMT-07:00" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:31:59 GMT-07:00" name="setUp" finished-at="2024-10-30T01:32:04 GMT-07:00" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart1()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:32:04 GMT-07:00" name="addProductTCart1" finished-at="2024-10-30T01:32:05 GMT-07:00" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTestNew@245253d8]" started-at="2024-10-30T01:32:05 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:32:06 GMT-07:00" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.HomePageTestNew -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2024-10-30T01:32:06 GMT-07:00" name="Firefox Tests" finished-at="2024-10-30T01:32:18 GMT-07:00" duration-ms="11512">
+      <class name="com.test.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.LoginTest@7bbcf6f0]" started-at="2024-10-30T01:32:06 GMT-07:00" name="setUp" finished-at="2024-10-30T01:32:10 GMT-07:00" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.test.automation.tests.LoginTest@7bbcf6f0]" started-at="2024-10-30T01:32:10 GMT-07:00" name="testSuccessfulLogin" finished-at="2024-10-30T01:32:16 GMT-07:00" duration-ms="5206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.LoginTest@7bbcf6f0]" started-at="2024-10-30T01:32:16 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:32:17 GMT-07:00" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.LoginTest -->
+      <class name="com.test.automation.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:06 GMT-07:00" name="setUp" finished-at="2024-10-30T01:32:12 GMT-07:00" duration-ms="5202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:12 GMT-07:00" name="addProductTCart" finished-at="2024-10-30T01:32:13 GMT-07:00" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:13 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:32:13 GMT-07:00" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:13 GMT-07:00" name="setUp" finished-at="2024-10-30T01:32:17 GMT-07:00" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTCart1()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:17 GMT-07:00" name="addProductTCart1" finished-at="2024-10-30T01:32:17 GMT-07:00" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTCart1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.tests.HomePageTest@2b80e5a9]" started-at="2024-10-30T01:32:17 GMT-07:00" name="tearDown" finished-at="2024-10-30T01:32:18 GMT-07:00" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.tests.HomePageTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>

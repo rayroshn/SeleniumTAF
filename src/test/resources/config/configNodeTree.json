@@ -1,0 +1,40 @@
+{
+  "environments": {
+    "development": {
+      "browserType": "chrome",
+      "baseUrl": "https://dev.example.com",
+      "implicitWaitSeconds": 10,
+      "pageLoadTimeoutSeconds": 30,
+      "headless": false
+    },
+    "cdev": {
+      "browserType":"chrome",
+      "baseUrl": "https://askomdch.com/",
+      "implicitWaitSeconds": 10,
+      "pageLoadTimeoutSeconds": 30,
+      "headless": true
+    },
+    "cqat": {
+      "browserType": "firefox",
+      "baseUrl": "https://cqat.example.com",
+      "implicitWaitSeconds": 5,
+      "pageLoadTimeoutSeconds": 25,
+      "headless": false
+    },
+    "preprod": {
+      "browserType": "chrome",
+      "baseUrl": "https://preprod.example.com",
+      "implicitWaitSeconds": 10,
+      "pageLoadTimeoutSeconds": 30,
+      "headless": false
+    },
+    "prod": {
+      "browserType": "chrome",
+      "baseUrl": "https://prod.example.com",
+      "implicitWaitSeconds": 10,
+      "pageLoadTimeoutSeconds": 30,
+      "headless": false
+    }
+  },
+  "environment": "development"
+}

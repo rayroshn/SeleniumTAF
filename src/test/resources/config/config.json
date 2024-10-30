@@ -1,0 +1,8 @@
+{
+  "browserType": "chrome",
+  "baseUrl": "https://askomdch.com/",
+  "implicitWaitSeconds": 10,
+  "pageLoadTimeoutSeconds": 30,
+  "headless": false,
+  "environment": "cqat"
+}
