@@ -24,6 +24,7 @@
             <class name="com.test.automation.tests.LoginTestNew">
                 <methods>
                     <include name="testSuccessfulLogin" />
+                    <include name="testFailLogin"/>
                 </methods>
             </class>
             <!-- Add more test classes -->
