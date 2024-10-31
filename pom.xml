@@ -132,6 +132,12 @@
             <version>1.33</version>
         </dependency>
 
+        <!-- Screeshot allure report -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>${allure.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

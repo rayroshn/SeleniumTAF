@@ -4,7 +4,9 @@ import com.test.automation.config.ConfigurationNodeTree;
 import com.test.automation.driver.DriverFactory;
 import com.test.automation.config.Configuration;
 import com.test.automation.pages.PageObjectManager;
+import com.test.automation.utils.ScreenshotUtil;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import lombok.extern.log4j.Log4j2;
 
@@ -27,7 +29,14 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void tearDown() {
-        DriverFactory.quitDriver();
+    public void tearDown(ITestResult iTestResult) {
+
+        if (ITestResult.FAILURE == iTestResult.getStatus() ||  ITestResult.SUCCESS == iTestResult.getStatus() ) {
+            ScreenshotUtil.takeScreenshot(DriverFactory.getDriver(),iTestResult.getName());
+        }
+        if (DriverFactory .getDriver()!= null) {
+            DriverFactory.quitDriver();
+        }
+
     }
 }
